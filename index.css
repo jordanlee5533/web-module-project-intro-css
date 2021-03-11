@@ -66,51 +66,26 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
-header{
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    padding: 3% 0;
+    width: 100%;
     text-align: center;
-    width: 60%;
-    display: inline-block;
-}
-
-.top{
-    padding: 7% 0;
-}
-
-h1{
-    font-family: 'Chelsea Market', cursive;
-    font-size: 6rem;
-}
-
-h2{
-    font-size: 2.25rem;
-}
-
-header p{
-    font-size: 2.25rem;
-    line-height: 1.2;
-}
-
-header img{
-    width: 35%;
-    display: inline-block;
-    border: 2px;
-    border-radius: 50%;
-}
-
-footer{
-    background:#F9E7DC;
 }
 
 .plan, .learn, .involve{
     display: inline-block;
     border: 2px;
     border-radius: 20px;
-    color: white;
     text-align: center;
-    padding: 1% 3%;
-    margin: 0 auto;
-    width: 15%;
-    font-size: 2rem;
+    padding: 0.5% 1.5%;
+    width: 13%;
+    font-size: 2.25rem;
+    margin: 0 8%;
 }
 
 .plan{
@@ -126,7 +101,47 @@ footer{
 }
 
 .top{
-    padding: 0 2%;
+    padding: 2% 0 4% 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.imgparent{
+    width: 25%;
+    display: inline-block;
+}
+
+.textparent{
+    width: 60%;
+    display: inline-block;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 7rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+header p{
+    font-size: 2.25rem;
+    line-height: 1.2;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+header img{
+    border: 1px;
+    border-radius: 50%;
+}
+
+footer{
+    background:#F9E7DC;
 }
 
 .one{
@@ -136,7 +151,7 @@ footer{
     font-size: 2.25rem;
     width: 95%;
     margin: 0 auto;
-    padding: 2% 2%;
+    padding: 1% 2%;
     line-height: 1.25;
 }
 
@@ -152,6 +167,10 @@ footer{
     padding: 0 0 15% 0;
 }
 
+p span{
+    font-weight: bold;
+}
+
 .icon{
     width: 50%;
     margin: 0 auto;
@@ -159,5 +178,10 @@ footer{
 }
 
 .img2{
+    height: 30vh;
+    overflow: hidden;
+}
+
+.img2 img{
     width: 100%;
 }
